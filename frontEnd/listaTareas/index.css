@@ -1,0 +1,59 @@
+main {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  top: 40%;
+  width: 80%;
+  padding: 20px;
+  border-radius: 12px;
+  margin: 5%;
+}
+body {
+  height: 100vh;
+  background-color: rgb(38, 186, 38);
+}
+.button1 {
+  background-color: rgb(109, 172, 243);
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 20%;
+  padding: 3px;
+  color: white;
+}
+.button2 {
+  background-color: rgb(126, 33, 33);
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 20%;
+  padding: 3px;
+  color: white;
+}
+.button3 {
+  background-color: rgb(44, 209, 102);
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 20%;
+  padding: 3px;
+  color: white;
+}
+.buttonAdd {
+  background-color: rgb(109, 172, 243);
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 20%;
+  padding: 3px;
+  color: white;
+}
+.textEm {
+  text-decoration: line-through;
+  color: gray;
+}
+.grayText {
+  color: gray;
+  font-style: italic;
+}
+.gray {
+  background-color: rgb(210, 210, 210);
+}
+.list {
+  line-height: 25px;
+}

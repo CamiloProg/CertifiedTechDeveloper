@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.primerNav {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  margin: 0;
+  padding-left: 100px;
+  padding-right: 20px;
+}
+.primerNav p {
+  margin: 0;
+}
+.segundaNav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f0a83e;
+  padding: 20px;
+}
+.listaSegundaNav {
+  display: flex;
+  gap: 10px;
+}
+.listaSegundaNav a {
+  text-decoration: none;
+  color: white;
+}
+.imagenPrincipal {
+  width: 100%;
+}
+.textoImagen {
+  background-image: url("./background.jpg");
+  background-size: cover;
+  height: 55vh;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  flex-direction: column;
+}
+.textoDentroImg {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-right: 10px;
+  color: #3c2313;
+}
+.textoDentroImg h1 {
+  background-color: white;
+  padding: 8px;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 32px;
+}
+.textoImagen button {
+  align-self: center;
+  background-color: #f0a83e;
+  padding: 15px;
+  border: 0;
+  color: white;
+  border-radius: 8px;
+}
+.selectNav {
+  background-color: black;
+  color: white;
+  border: 0px;
+  margin: 0;
+  padding: 0;
+}
+.productosDestacados {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #3c2313;
+  gap: 10px;
+  margin: 15px 0;
+}
+.productosDestacados h2 {
+  font-size: 40px;
+}
+.productosDestacados ul {
+  color: #666666;
+}
+.comederosAccesorios {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  font-size: 15px;
+}
+.imagenesProductos {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.derechosReservados {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+.formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 25px;
+  margin: 80px 0;
+  gap: 20px;
+  color: #3c2313;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+.form input {
+  background-color: #3c2313;
+  color: white;
+  border-radius: 15px;
+  font-size: 9px;
+  padding: 15px;
+  width: 350px;
+}
+.form input::placeholder {
+  color: rgb(255, 255, 255);
+  opacity: 1;
+}
+.formButtons {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 20px;
+}
+.formButton1 {
+  background-color: #8a8787;
+  border: 0;
+  padding: 8px 0;
+  border-radius: 12px;
+  color: white;
+  width: 100px;
+}
+.formButton2 {
+  background-color: #f0a83e;
+  border: 0;
+  padding: 8px 0;
+  border-radius: 12px;
+  color: white;
+  width: 100px;
+}
