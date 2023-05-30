@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+.descuentos {
+  background-color: #1cd1b0;
+  padding: 10px;
+}
+.heroes {
+  background-color: #00669f;
+  padding: 20px;
+  -webkit-box-shadow: -1px 10px 6px -4px rgba(0, 0, 0, 0.34);
+  -moz-box-shadow: -1px 10px 6px -4px rgba(0, 0, 0, 0.34);
+  box-shadow: -1px 10px 6px -4px rgba(0, 0, 0, 0.34);
+}
+.background {
+  background-image: url("./img/backgroundbatman.png");
+  background-repeat: no-repeat;
+  position: relative;
+  height: 193px;
+  width: 300px;
+}
+.backgroundHarley {
+  background-image: url("./img/harleybg.png");
+  background-repeat: no-repeat;
+  position: relative;
+  height: 193px;
+  width: 300px;
+}
+.heart {
+  position: absolute;
+  top: 25px;
+  left: 15px;
+}
+.profile {
+  border-radius: 50%;
+  position: absolute;
+  bottom: -50px;
+  left: 90px;
+  -webkit-box-shadow: 3px 10px 5px -4px rgba(0, 0, 0, 0.34);
+  -moz-box-shadow: 3px 10px 5px -4px rgba(0, 0, 0, 0.34);
+  box-shadow: 3px 10px 5px -4px rgba(0, 0, 0, 0.34);
+}
+.container {
+  width: 300px;
+  -webkit-box-shadow: 3px 10px 5px -4px rgba(0, 0, 0, 0.34);
+  -moz-box-shadow: 3px 10px 5px -4px rgba(0, 0, 0, 0.34);
+  box-shadow: 3px 10px 5px -4px rgba(0, 0, 0, 0.34);
+  margin-top: 150px;
+  margin-left: 32px;
+}
+.texto {
+  background-color: #f3f3f3;
+  padding: 15px;
+  padding-top: 74px;
+  text-align: left;
+}
+.texto h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.button {
+  margin-top: 37px;
+  width: 129px;
+  height: 49px;
+  align-items: center;
+  background-color: #00669f;
+  border: none;
+  color: white;
+  font-size: 15px;
+}
+.buttoncenter {
+  display: flex;
+  justify-content: center;
+}
+main {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+footer {
+  font-size: 16px;
+  font-weight: 400;
+  background-color: #00669f;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.footer {
+  padding: 10px;
+}
