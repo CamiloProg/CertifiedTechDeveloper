@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Proyecto integrador</title>
     <link rel="stylesheet" href="./index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
     <script
       src="https://kit.fontawesome.com/8fb8cd7141.js"
       crossorigin="anonymous"
@@ -82,7 +88,58 @@
       </section>
     </main>
     <footer>
-      <i class="fa-regular fa-envelope" style="color: #ffffff"></i>
+      <nav class="footerNav">
+        <div class="iconoFooter">
+          <i class="fa-regular fa-envelope fa-xl" style="color: #ffffff"></i>
+          <p>Suscríbete para más novedades</p>
+        </div>
+        <div>
+          <form>
+            <input
+              type="email"
+              class="inputFooter"
+              placeholder="Ingresa tu correo electronico"
+            />
+            <button class="buttonFooter" type="submit">Suscríbete</button>
+          </form>
+        </div>
+      </nav>
+      <section class="infoFooter">
+        <div class="informacion">
+          <div class="datosFooter">
+            <div class="iconoDatos">
+              <img src="../images/location.png" alt="" />
+            </div>
+            <div>
+              <h3>Localidad</h3>
+              <p>Calle - provincia</p>
+            </div>
+          </div>
+          <div class="datosFooter">
+            <div class="iconoDatos">
+              <img src="../images/phone.png" alt="" />
+            </div>
+
+            <div>
+              <h3>Teléfono</h3>
+              <p>Número de teléfono</p>
+            </div>
+          </div>
+          <div class="datosFooter">
+            <div class="iconoDatos">
+              <img src="../images/emailIcon.png" alt="" />
+            </div>
+
+            <div>
+              <h3>Correo Electrónico</h3>
+              <p>Dirección de correo</p>
+            </div>
+          </div>
+        </div>
+        <div class="logoFooter">
+          <img src="../images/LogoFooter.png" alt="logo" />
+        </div>
+      </section>
       <p class="derechosReservados">Todos los derechos reservados Front End</p>
     </footer>
   </body>
