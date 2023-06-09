@@ -4,12 +4,13 @@
   font-family: "Roboto", sans-serif;
 }
 .descuentos {
-  background-color: #1cd1b0;
+  background-color: #d1891c;
   padding: 10px;
 }
 .heroes {
   background-color: #00669f;
   padding: 20px;
+  color: white;
   -webkit-box-shadow: -1px 10px 6px -4px rgba(0, 0, 0, 0.34);
   -moz-box-shadow: -1px 10px 6px -4px rgba(0, 0, 0, 0.34);
   box-shadow: -1px 10px 6px -4px rgba(0, 0, 0, 0.34);
@@ -21,9 +22,29 @@
   height: 193px;
   width: 300px;
 }
+.backgroundMujer {
+  background-image: url("./img/Fondo_mujer.svg");
+  background-size: cover;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  position: relative;
+  height: 193px;
+  width: 300px;
+}
 .backgroundHarley {
-  background-image: url("./img/harleybg.png");
-  background-repeat: no-repeat;
+  background-image: url("./img/Fondo_Harley.svg");
+  background-size: cover;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  position: relative;
+  height: 193px;
+  width: 300px;
+}
+.backgroundSuperman {
+  background-image: url("./img/fondo_batman.svg");
+  background-size: cover;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
   position: relative;
   height: 193px;
   width: 300px;
@@ -37,7 +58,9 @@
   border-radius: 50%;
   position: absolute;
   bottom: -50px;
-  left: 90px;
+  width: 120px;
+  height: 120px;
+  left: 95px;
   -webkit-box-shadow: 3px 10px 5px -4px rgba(0, 0, 0, 0.34);
   -moz-box-shadow: 3px 10px 5px -4px rgba(0, 0, 0, 0.34);
   box-shadow: 3px 10px 5px -4px rgba(0, 0, 0, 0.34);
@@ -47,8 +70,6 @@
   -webkit-box-shadow: 3px 10px 5px -4px rgba(0, 0, 0, 0.34);
   -moz-box-shadow: 3px 10px 5px -4px rgba(0, 0, 0, 0.34);
   box-shadow: 3px 10px 5px -4px rgba(0, 0, 0, 0.34);
-  margin-top: 150px;
-  margin-left: 32px;
 }
 .texto {
   background-color: #f3f3f3;
@@ -74,20 +95,54 @@
   display: flex;
   justify-content: center;
 }
+
+.containerCajas {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 120px;
+}
 main {
   display: flex;
   justify-content: center;
-  width: 100%;
+}
+.agregarCarta {
+  background-color: #00669f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 25px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  position: fixed;
+  bottom: 70px;
+  right: 20px;
+}
+footer img {
+  width: 80px;
+  padding-right: 20px;
+  position: absolute;
+  right: 0px;
+  bottom: 20px;
 }
 footer {
   font-size: 16px;
   font-weight: 400;
   background-color: #00669f;
   color: white;
-  position: fixed;
   bottom: 0;
   width: 100%;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+
+  position: relative;
 }
 .footer {
-  padding: 10px;
+  padding: 20px;
 }
