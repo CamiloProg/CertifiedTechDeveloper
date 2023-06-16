@@ -4,16 +4,29 @@
   font-family: "Roboto", sans-serif;
 }
 .descuentos {
-  background-color: #d1891c;
+  background-color: #1cd1b0;
   padding: 10px;
 }
 .heroes {
   background-color: #00669f;
   padding: 20px;
   color: white;
+  display: flex;
+  align-items: center;
   -webkit-box-shadow: -1px 10px 6px -4px rgba(0, 0, 0, 0.34);
   -moz-box-shadow: -1px 10px 6px -4px rgba(0, 0, 0, 0.34);
   box-shadow: -1px 10px 6px -4px rgba(0, 0, 0, 0.34);
+}
+.contacto {
+  background-color: #001d2d;
+  color: white;
+}
+.contacto ul {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  padding: 5px;
+  list-style: none;
 }
 .background {
   background-image: url("./img/backgroundbatman.png");
@@ -122,6 +135,10 @@ main {
   position: fixed;
   bottom: 70px;
   right: 20px;
+}
+.agregarCarta a {
+  text-decoration: none;
+  color: white;
 }
 footer img {
   width: 80px;
