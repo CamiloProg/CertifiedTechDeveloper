@@ -1,0 +1,3 @@
+function fizzbuzz(array, index) {
+  
+}
