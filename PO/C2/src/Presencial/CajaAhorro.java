@@ -10,7 +10,7 @@ public class CajaAhorro {
         this.titular = titular;
         this.cbu = cbu;
         this.alias = alias;
-        this.saldo = saldo;
+
     }
 
     public String depositar (Double montoDeposito){
@@ -28,8 +28,8 @@ public class CajaAhorro {
     public String getAlias() {
         return alias;
     }
-
-    public String getSaldo() {
-        return saldo;
-    }
 }
+
+
+
+
