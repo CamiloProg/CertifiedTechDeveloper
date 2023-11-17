@@ -45,3 +45,13 @@ function calcular(num1, num2, operacion) {
     }
 }
 
+/*
+Equipo 03
+Liliana Muñoz Duque
+Lorena Palacios Rios
+Ricardo Emilio Rosero Tejada
+Daniel Sanabria Rivera
+Juan Camilo Martinez
+Diego Quintero
+*/
+
