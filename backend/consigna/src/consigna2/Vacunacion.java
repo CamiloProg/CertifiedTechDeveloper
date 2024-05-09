@@ -1,6 +1,6 @@
 package consigna2;
 
-public class Vacunacion implements ServicioVacunacion {
+public class Vacunacion {
 
 
 }

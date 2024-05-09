@@ -1,3 +1,5 @@
+package consigna1;
+
 public class ManejadorSpam extends ManejadorMail {
     @Override
     public String comprobarMail(Mail mail) {

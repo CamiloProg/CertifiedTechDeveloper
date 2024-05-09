@@ -1,3 +1,5 @@
+package consigna1;
+
 public class ManejadorTecnico extends ManejadorMail {
 
     @Override

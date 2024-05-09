@@ -1,3 +1,5 @@
+package consigna1;
+
 public class Mail {
     private String origen;
     private String destino;

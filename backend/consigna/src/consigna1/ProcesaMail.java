@@ -1,3 +1,5 @@
+package consigna1;
+
 public class ProcesaMail {
 
     public String cadenaResponsabilidad(Mail mail){

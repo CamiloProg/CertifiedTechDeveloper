@@ -1,3 +1,5 @@
+package consigna1;
+
 public abstract class ManejadorMail {
     private ManejadorMail siguiente;
 
