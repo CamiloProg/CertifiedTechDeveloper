@@ -1,0 +1,4 @@
+[2024-05-14 20:23:15] [ ERROR] [Main:55] Wrong user name or password [28000-224]
+[2024-05-14 20:23:33] [ INFO ] [Main:45] Datos de la cuenta: Cuentaid=1, numeroCuenta=1234, nombre='cuenta.mp', saldo=1818.0
+[2024-05-14 20:23:42] [ INFO ] [Main:45] Datos de la cuenta: Cuentaid=1, numeroCuenta=1234, nombre='cuenta.mp', saldo=1818.0
+[2024-05-14 20:26:55] [ INFO ] [Main:45] Datos de la cuenta: Cuentaid=1, numeroCuenta=1234, nombre='cuenta.mp', saldo=1818.0

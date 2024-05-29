@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8c46009a-d063-44ee-bdce-85f8da31f64a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Odontologo/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Odontologo/src/dao/iDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Odontologo/src/dao/impl/MedicamentoiDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Odontologo/src/db/H2Connection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Odontologo/src/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Odontologo/src/model/Medicamento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../preparedStatement/src/Cuenta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../preparedStatement/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../preparedStatement/src/db/H2Connection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../preparedStatement/src/log4j.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2gnT2V9bSC3Td4W2bcPf1FjFxag" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/camil/things/parcialBackend",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8c46009a-d063-44ee-bdce-85f8da31f64a" name="Changes" comment="" />
+      <created>1716332136602</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1716332136602</updated>
+    </task>
+    <servers />
+  </component>
+</project>
